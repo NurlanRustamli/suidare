@@ -6,19 +6,39 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    background-image: url("jeden.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
+h1{
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+}
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: #03b4ff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #fff;
+   
+
+}
+#desiredTemperature{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 1.75rem;
+    background-color: #282828;
+    color: #f9f9f9;
 }
 
 .controls {
     margin-bottom: 20px;
 }
+
 
 label {
     display: block;
